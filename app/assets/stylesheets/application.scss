@@ -72,9 +72,13 @@ body { padding-top: 70px; }
 }
 
 .btn-green {
+
   background-color: #284907;
   color: #fff;
-  width: 75%;
+  width: 33.3%;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+  margin-top: -75px;
 
   &:hover {
     background-color: #5C832F;
@@ -86,4 +90,26 @@ body { padding-top: 70px; }
   color: #D8CAA8;
   background-color: #363942;
   width: 100%; 
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

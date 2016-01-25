@@ -3,7 +3,7 @@
     <div class="media-body">
       <div class="media-heading">
         <div class="col-md-12 hero-title text-center">
-          <h1>No legalese, no endless strings of case citations…our information gets you the answers you need, so that you can get back to business.</h1>
+          <h1 class="">No legalese, no endless strings of case citations…our information gets you the answers you need, so that you can get back to <span class="element"> </span></h1>
         </div>
       </div>
     </div>
@@ -18,12 +18,26 @@
         <span class="glyphicon glyphicon-heart"></span>
         <h5 class="point-title">HR blog</h5>
         <p class="point-description">Needless to say, a company can’t operate (let alone succeed) if the employees aren’t showing up to work. But how do you ensure that your workforce will consistently report for duty? One good step is having a clear attendance policy. </p>
-        <p><a href="http://www.hrsimple.com/store-pricing-page" class="btn btn-green" role="button">Learn more</a></p>
       </div>
       <div class="col-md-4 hero-content-2 text-center">
         <span class="glyphicon glyphicon-cloud-download"></span>
         <h5 class="point-title">Policies &amp; forms</h5>
         <p class="point-description">For most businesses, litigation might be the most unpleasant, difficult, and expensive of all employment-related activities. Maintaining accurate and complete documentation as a standard business practice can help you prevail or possibly avoid costly lawsuits altogether.</p>
       </div>
+      <p><a href="http://www.hrsimple.com/store-pricing-page" class="btn btn-green" role="button">Learn more</a></p>
+
     </section>
   </div>
+
+<script>
+
+  $(function(){
+      $(".element").typed({
+        strings: ["^1000business.", "lunch.", "your vacation.", "golfing."],
+        typeSpeed: 115,
+        backSpeed: 45,
+        backDelay: 500,
+      });
+  });
+</script>
+
