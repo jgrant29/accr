@@ -54,8 +54,9 @@
   height: 185px;
 }
 
-.glyphicon-user, 
-.glyphicon-ok,
+.glyphicon-cloud-download
+, 
+.glyphicon-home,
 .glyphicon-heart {
   padding-top: 5rem;
   color: #284907;
@@ -63,8 +64,8 @@
 }
 
 .glyphicon-copyright-mark,
-.glyphicon-earphone {
-  color: #363942;
+.glyphicon-phone-alt {
+  color: #D8CAA8;
   padding-right:5px;
   margin-top: 12px;
 }
@@ -81,6 +82,7 @@
 }
 
 .footer {
-  background-color: #D8CAA8;
+  color: #D8CAA8;
+  background-color: #363942;
   width: 100%; 
 }
