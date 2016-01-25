@@ -1,7 +1,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body { padding-top: 70px; }
+
+a {
+  color: #284907;
+
+  &:hover {
+    color: #5C832F;
+  }
+}
+
+
+
 .navbar {
   border-radius: 0;
 }
@@ -71,6 +81,28 @@ body { padding-top: 70px; }
   margin-top: 12px;
 }
 
+.glyphicon-globe,
+.glyphicon-earphone,
+.glyphicon-map-marker, {
+  padding-right:5px;
+  margin-left:1rem;
+  color: #284907;
+}
+
+
+
+.btn-success {
+   background-color: #284907;
+   border: #284907;
+
+  &:hover {
+    background-color: #5C832F;
+    border: #284907;
+  }
+}
+
+
+
 .btn-green {
 
   background-color: #284907;
@@ -86,10 +118,29 @@ body { padding-top: 70px; }
   };
 }
 
+.hero-contact {
+  color: #284907;
+  border-bottom: 3px solid #f5f5f5;
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+}
+
+.contact-form {
+  padding-bottom: 70px;
+}
+
+.address {
+  padding-left: 28px;
+
+}
+
 .footer {
   color: #D8CAA8;
   background-color: #363942;
-  width: 100%; 
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .typed-cursor{

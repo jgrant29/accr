@@ -13,6 +13,7 @@ group :development do
 end
 
 gem 'bootstrap-sass'
+gem 'mail_form'
 gem "typedjs-rails", "~> 1.0.2"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
