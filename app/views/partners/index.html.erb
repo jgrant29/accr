@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<section class="container">
+  <div class="hero-contact">
+  <h1>Partners</h1>
+  </div>
+    <% @partners.each do |partner| %>
+      <h2><%= link_to partner.title, "#{partner.url}" %></h2>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<!--<%= link_to 'New Partner', new_partner_path %>-->
+</section>

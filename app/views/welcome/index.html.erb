@@ -2,29 +2,26 @@
   <div class="media">
     <div class="media-body">
       <div class="media-heading">
-        <div class="col-md-12 hero-title text-center">
-          <h1 class="">No legalese, no endless strings of case citations…our information gets you the answers you need, so that you can get back to <span class="element"> </span></h1>
+        <div class="hero-title">
+          <h1 class="hero-text">Better  <span class="element"> </span></h1>
         </div>
       </div>
     </div>
   </div>
     <section class="row">
-      <div class="col-md-4 text-center hero-content-2">
-        <span class="glyphicon glyphicon-home"></span>
-        <h5 class="point-title">Employment laws</h5>
-        <p class="point-description">Employment laws are modified every year and staying up to date on all the changes can be a full-time job – and is, for human resources professionals and employers.  We help businesses stay on the right side of employment law, minimize the risk of litigation, and avoid costly penalties.</p>
+      <div class="col-md-6 text-center hero-content-2">
+        <span class="glyphicon glyphicon-book"></span>
+        <h2 class="point-title">Employment Laws</h2>
+        <p class="point-description">hrsimple.com is the new and improved version of accr.biz. The new website still has all of the same, great material as before plus more!  hrsimple.com now includes a personal profile and provides access to a continuous flow of updated HR information and trends. A few of the many improvements include an HR-update notification center, email alerts, HR news you-can-use, best practice advice and much more.</p>
+        <p><a href="http://www.hrsimple.com/store-pricing-page" class="btn btn-green" role="button">Visit hrsimple</a></p>
       </div>
-      <div class="col-md-4 text-center hero-content-2">
-        <span class="glyphicon glyphicon-heart"></span>
-        <h5 class="point-title">HR blog</h5>
-        <p class="point-description">Needless to say, a company can’t operate (let alone succeed) if the employees aren’t showing up to work. But how do you ensure that your workforce will consistently report for duty? One good step is having a clear attendance policy. </p>
+      <div class="col-md-6 text-center hero-content-2">
+        <span class="glyphicon glyphicon-stats"></span>
+        <h2 class="point-title">Who we work with</h2>
+        <p class="point-description">American Chamber of Commerce Resources creates and manages affinity programs, collectively, with state chambers of commerce and associations of businesses throughout the united states.  A few to name include our in-house serivce, hrsimple.com , Florida's Chamber Perks, and other projects from 401K plans to publishing marketing content and webinars.</p>
+        <%= link_to "Discover our partners", partners_path, class: "btn btn-green" %>
       </div>
-      <div class="col-md-4 hero-content-2 text-center">
-        <span class="glyphicon glyphicon-cloud-download"></span>
-        <h5 class="point-title">Policies &amp; forms</h5>
-        <p class="point-description">For most businesses, litigation might be the most unpleasant, difficult, and expensive of all employment-related activities. Maintaining accurate and complete documentation as a standard business practice can help you prevail or possibly avoid costly lawsuits altogether.</p>
-      </div>
-      <p><a href="http://www.hrsimple.com/store-pricing-page" class="btn btn-green" role="button">Learn more</a></p>
+      
 
     </section>
   </div>
@@ -33,7 +30,7 @@
 
   $(function(){
       $(".element").typed({
-        strings: ["^1000business.", "lunch.", "your vacation.", "golfing."],
+        strings: ["^1000affinity programs.", "employment laws.", "customer service."],
         typeSpeed: 115,
         backSpeed: 45,
         backDelay: 500,
