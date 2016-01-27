@@ -11,3 +11,4 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( accr2_logo.png )
 Rails.application.config.assets.precompile += %w( human_resources.jpg )
+Rails.application.config.assets.precompile += %w( hrslogo.png )

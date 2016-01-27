@@ -18,8 +18,12 @@ a {
   }
 }
 
+.annoucement img{
+  width: 60px;
+}
+
 .annoucement {
-  background-color: #3498DB;
+  background-color: #363942;
   padding: 5px 0px;
   color: #fff;
   font-weight: 600;
@@ -106,10 +110,14 @@ a {
 }
 
 .glyphicon-book,
-.glyphicon-stats {
+.glyphicon-globe {
   padding-top: 5rem;
   color: #284907;
   font-size: 10rem;
+
+  &:hover {
+    color: #5C832F;
+  };
 }
 
 .glyphicon-copyright-mark,
