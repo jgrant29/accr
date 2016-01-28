@@ -9,57 +9,57 @@ class PartnersController < ApplicationController
 
   # GET /partners/1
   # GET /partners/1.json
-  def show
-  end
+  #def show
+  #end
 
   # GET /partners/new
-  def new
-    @partner = Partner.new
-  end
+  #def new
+  #  @partner = Partner.new
+  #end
 
   # GET /partners/1/edit
-  def edit
-  end
+  #def edit
+  #end
 
   # POST /partners
   # POST /partners.json
-  def create
-    @partner = Partner.new(partner_params)
-
-    respond_to do |format|
-      if @partner.save
-        format.html { redirect_to @partner, notice: 'Partner was successfully created.' }
-        format.json { render :show, status: :created, location: @partner }
-      else
-        format.html { render :new }
-        format.json { render json: @partner.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  #def create
+  #  @partner = Partner.new(partner_params)
+#
+  #  respond_to do |format|
+  #    if @partner.save
+  #      format.html { redirect_to @partner, notice: 'Partner was successfully created.' }
+  #      format.json { render :show, status: :created, location: @partner }
+  #    else
+  #      format.html { render :new }
+  #      format.json { render json: @partner.errors, status: :unprocessable_entity }
+  #    end
+  #  end
+  #end
 
   # PATCH/PUT /partners/1
   # PATCH/PUT /partners/1.json
-  def update
-    respond_to do |format|
-      if @partner.update(partner_params)
-        format.html { redirect_to @partner, notice: 'Partner was successfully updated.' }
-        format.json { render :show, status: :ok, location: @partner }
-      else
-        format.html { render :edit }
-        format.json { render json: @partner.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  #def update
+  #  respond_to do |format|
+  #    if @partner.update(partner_params)
+  #      format.html { redirect_to @partner, notice: 'Partner was successfully updated.' }
+  #      format.json { render :show, status: :ok, location: @partner }
+  #    else
+  #      format.html { render :edit }
+  #      format.json { render json: @partner.errors, status: :unprocessable_entity }
+  #    end
+  #  end
+  #end
 
   # DELETE /partners/1
   # DELETE /partners/1.json
- def destroy
-   @partner.destroy
-   respond_to do |format|
-     format.html { redirect_to partners_url, notice: 'Partner was successfully destroyed.' }
-     format.json { head :no_content }
-   end
- end
+ #def destroy
+ #  @partner.destroy
+ #  respond_to do |format|
+ #    format.html { redirect_to partners_url, notice: 'Partner was successfully destroyed.' }
+ #    format.json { head :no_content }
+ #  end
+ #end
 
   private
     # Use callbacks to share common setup or constraints between actions.
