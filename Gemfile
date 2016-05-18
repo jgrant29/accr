@@ -17,7 +17,6 @@ gem 'mail_form'
 gem 'figaro', '1.0'
 gem "typedjs-rails", "~> 1.0.2"
 gem "pundit"
-gem "puma"
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
