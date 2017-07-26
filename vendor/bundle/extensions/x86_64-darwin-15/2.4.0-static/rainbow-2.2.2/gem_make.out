@@ -1,0 +1,5 @@
+current directory: /Users/justinMgrant/code/accr/vendor/bundle/gems/rainbow-2.2.2/ext
+/Users/justinMgrant/.rbenv/versions/2.4.0/bin/ruby mkrf_conf.rb
+
+current directory: /Users/justinMgrant/code/accr/vendor/bundle/gems/rainbow-2.2.2/ext
+/Users/justinMgrant/.rbenv/versions/2.4.0/bin/ruby -rubygems /Users/justinMgrant/code/accr/vendor/bundle/gems/rake-12.0.0/exe/rake RUBYARCHDIR=/Users/justinMgrant/code/accr/vendor/bundle/extensions/x86_64-darwin-15/2.4.0-static/rainbow-2.2.2 RUBYLIBDIR=/Users/justinMgrant/code/accr/vendor/bundle/extensions/x86_64-darwin-15/2.4.0-static/rainbow-2.2.2
